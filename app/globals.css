@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: rgb(0, 0, 0);
+}
+.custom-img7{
+  background-image: url(./assets/wallbg2.png);
+}
+.custom-img8{
+  background-image: url(./assets/Rectangle51.png);
+}
+.custom-img9{
+  background-image: url(./assets/Rectangle52.png);
+}
+.custom-img10{
+  background-image: url(./assets/back.jpg);
+}
+
+@media (-webkit-device-pixel-ratio: 1.1) {
+  * {
+    font-size: 95%;
+    -moz-transform: scale(3);
+    -moz-transform-origin: 0 0;
+  }
+}
+
+@media (-webkit-device-pixel-ratio: 1.25) {
+  * {
+    font-size: 90%;
+    -moz-transform: scale(3);
+    -moz-transform-origin: 0 0;
+  }
+}
